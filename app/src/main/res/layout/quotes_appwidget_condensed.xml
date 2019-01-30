@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:id="@+id/relative_widget"
+
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/background_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:id="@+id/widget_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Test Test test test test Test test test testTest test test test test test"
+        android:textColor="#AF0404"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/widget_button"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignRight="@id/background_widget"
+        android:layout_alignTop="@id/background_widget"
+        android:background="@null"
+        android:src="@drawable/widget_options"
+        />
+
+</RelativeLayout>
